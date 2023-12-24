@@ -46,9 +46,9 @@ public class Main {
         System.out.println("Всего работников в компании " + totalEmployees + " человек");
         var employees = 80;
         var newEmployees = 94;
-        var totalEmployees2 = employees + newEmployees;
-        var everyEmployees2 = totalTime / totalEmployees2;
-        System.out.println("Если в компании работает " + totalEmployees2 + " человека,то всего " + everyEmployees2 + " часа работы может быть поделено между сотрудниками" );
+        var totalEmployees1 = employees + newEmployees;
+        var everyEmployees2 = totalTime / totalEmployees1;
+        System.out.println("Если в компании работает " + totalEmployees1 + " человека,то всего " + everyEmployees2 + " часа работы может быть поделено между сотрудниками" );
 
     }
 }
